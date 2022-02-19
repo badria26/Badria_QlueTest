@@ -1,0 +1,40 @@
+> E2E test case for create Public Github
+ketik url github pada address bar lalu klik enter
+lakukan sign up dengan memasukan email dan password yang benar
+cari dan klik tombol "New" untuk membuat repository baru
+check create new repository page muncul 
+pastikan nama owner sesuai dengan akun aktif yang terbuka saat ini
+klik nama owner untuk melihat dropdown list akun yang bisa digunakan
+ketik nama repository yang akan dibuat, pastikan centang hijau muncul saat nama repository dibuat 
+ketik description repository, jika dibutuhkan
+pilih type repository "Public"
+centang "add readme file" untuk menambahkan readme file
+klik "create repsitory"
+check repository telah muncul pada list repository
+
+> E2E test case edit existing github
+ketik url github pada address bar lalu klik enter
+lakukan sign up dengan  memasukan email dan password yg valid
+klik repository existing yang akan di edit
+klik file yang akan di edit, pastikan isi file muncul
+lakukan pengeditan pada file dengan menambahkan karakter atau menghapus karakter
+tambahkan keterangan pada commit changes
+pilih radio button tempat file akan digunakan pada main atau pada branch
+klik commit change untuk menyelesaikan pengeditan dan direct ke halaman repository
+
+>E2E test case delete existing gihub
+ketik url github pada address bar lalu klik enter
+lakukan sign up dengan  memasukan email dan password yg valid
+pada halaman beranda, klik repository existing yang diinginkan
+tampil list file ada pada repository,  klik file yang ingin di delete 
+hapus file yang akan di delete dengan klik icon "tong sampah"
+tambahkan keterangan pada commit changes
+pilih radio button tempat direktory pengubahan akan ber-impact
+klik commit change untuk menyelesaikan penghapusan. 
+
+>E2E test case melihat list repository
+ketik url github pada address bar lalu klik enter
+lakukan sign up dengan  memasukan email dan password yg valid
+jika valid akan masuk ke halaman beranda, 
+perhatikan  page home list repository muncul list repository yang ada pada github. 
+
